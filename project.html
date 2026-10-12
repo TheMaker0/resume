@@ -361,6 +361,8 @@
   </main>
   <footer>© 2026 Mark Glenn · Built with care</footer>
   <script>
+    window.location.replace('index.html#projects');
+
     const themeSwitch = document.getElementById('theme-switch');
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
